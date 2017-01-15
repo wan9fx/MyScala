@@ -6,15 +6,26 @@ import scala.io.Source
   */
 object LongLines {
   def processFile(filename: String, width: Int): Unit = {
-    val source =Source.fromFile(filename)
+    def processLine(line:String) = {
+      if (line.length > width)
+        println(filename + ":" + line.trim)
+    }
+
+    val source = Source.fromFile(filename)
     for (line <- source.getLines())
-      processLine(filename,width, line)
+      processLine(line)
+
+
+
+    var increase = (x :Int ) => {
+      println("we")
+      println("are")
+      println("here")
+      x + 1
+    }
+
   }
 
-  private def processLine(filename:String, width:Int,
-                          line:String): Unit ={
-    if (line.length > width)
-      println(filename + ":" + line.trim)
-  }
+
 
 }
