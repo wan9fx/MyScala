@@ -17,23 +17,15 @@ class Point(xc: Int, yc: Int) {
 
 }
 
-object Testa {
-  def main(args: Array[String]): Unit = {
-    val pt = new Point(10, 20)
-    pt
-      .move(10, 20)
-  }
-}
-
-class Location( override val xc: Int, override val yc: Int, val zc : Int) extends Point(xc, yc) {
-  var z : Int = zc
-
-  def move (dx: Int, dy: Int, dz: Int): Unit = {
-    x = x + dx;
-    y = y + dy;
-    z = z + dz
-    println("x的坐标点 ： " + x)
-    println("y的坐标点 ： " + y)
-    println("z的坐标点 ： " + z)
-  }
-}
+//class Location( override val xc: Int, override val yc: Int, val zc : Int) extends Point(xc, yc) {
+//  var z : Int = zc
+//
+//  def move (dx: Int, dy: Int, dz: Int): Unit = {
+//    x = x + dx;
+//    y = y + dy;
+//    z = z + dz
+//    println("x的坐标点 ： " + x)
+//    println("y的坐标点 ： " + y)
+//    println("z的坐标点 ： " + z)
+//  }
+//}
