@@ -54,8 +54,38 @@ object test {
     printtime(divisor=1000)
     println("===============")
 
+    def curriedsum(x:Int)(y:Int) = x + y
+
+    println(curriedsum(1)(2))
+
+    println("===============")
 
 
+    def twice(op: Double => Double, x: Double) = op(op(x))
+    println(twice(_ +1, 5))
+
+    println("===============")
+
+    println("hello world")
+
+    println{"hello world"}
+
+    println("===============")
+
+    println(42.hashCode())
+
+    def isequal(x:Any, y:Any) = x == y
+    println(isequal(421, 421))
+    println("===============")
+
+    val x = new String("abc")
+    val y = new String("abc")
+    println(x eq y)
+    println(x ne y)
+
+    val frog = new Frog
+    println(frog)
+    println(frog.philosophize)
   }
 
 }
