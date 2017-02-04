@@ -6,7 +6,7 @@ package org.stephen;
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("hello new world!");
-        Hello hello = new Hello();
-        hello.sayHello("scala");
+//        Hello hello = new Hello();
+//        hello.sayHello("scala");
     }
 }

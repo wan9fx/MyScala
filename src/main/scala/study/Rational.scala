@@ -12,11 +12,7 @@ class Rational (n:Int, d:Int) extends Ordered[Rational]{
   override def toString = number + "/" + denom
 
 
-  def + (that:Rational) =
-    new Rational(
-      number * that.denom = that.number * denom,
-      denom * that.denom
-    )
+
 
   def * (that:Rational) =
     new Rational( number * that.number, denom * that.denom)
