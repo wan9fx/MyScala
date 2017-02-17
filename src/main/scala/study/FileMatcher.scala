@@ -13,14 +13,17 @@ object FileMatcher {
       yield file
   }
 
-
-  def filesending(query:String) =
+  def filesending(query: String) =
     filesMatching(_.endsWith(query))
 
-  def filescontaining(query:String) =
+  def filescontaining(query: String) =
     filesMatching(_.contains(query))
 
-  def filesregex(query:String) =
+  def filesregex(query: String) =
     filesMatching(_.matches(query))
+
+  def main(args: Array[String]): Unit = {
+    println("qqqq")
+  }
 
 }
