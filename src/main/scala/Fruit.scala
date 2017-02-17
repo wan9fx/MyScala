@@ -1,4 +1,5 @@
 package bobsdelights
+
 /**
   * Created by wangfx on 2017/1/16.
   */
@@ -9,5 +10,8 @@ abstract class Fruit {
 }
 object Fruits {
 
+  def main(args: Array[String]): Unit = {
+    println("stephen")
+  }
 
 }
