@@ -2,9 +2,6 @@ package thread
 
 import java.net.{ServerSocket, Socket}
 
-import akka.routing.AdjustPoolSize
-import com.sun.tools.internal.ws.wsdl.parser.DOMForest.Handler
-
 /**
   * Created by wangfx on 2017/2/17.
   */
