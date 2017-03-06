@@ -14,6 +14,7 @@ object ImplicitDemo {
 
   def main(args: Array[String]): Unit = {
     display("1212")
+
     display(12)
     display(true)
   }
