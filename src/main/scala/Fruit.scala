@@ -1,5 +1,7 @@
 package bobsdelights
 
+import caseclassstudy.Student
+
 /**
   * Created by wangfx on 2017/1/16.
   */
@@ -23,6 +25,14 @@ object Fruits {
     val e = 20l;
     val f = BigDecimal(e);
     println("f:" + f)
+
+    println("=====")
+    val s = Set(1, 2, 3)
+
+    for (a <- s) {
+      println(a)
+    }
+
   }
 
 }
