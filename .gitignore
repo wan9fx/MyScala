@@ -24,7 +24,6 @@ target
 build
 null
 tmp*
-temp*
 #dist
 test-output
 build.log
@@ -39,3 +38,5 @@ build.log
 #  ^\.pc/
 
 #SHITTY output not in target directory
+
+
