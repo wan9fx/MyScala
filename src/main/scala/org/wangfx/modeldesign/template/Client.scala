@@ -14,4 +14,7 @@ object Client extends App {
   val account3: Account = CurrentAccount
   account3.handle("ct", "123")
 
+  val account4: Account = CurrentAccount
+  account3.handle("ct", "123")
+
 }
