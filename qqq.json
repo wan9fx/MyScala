@@ -1,0 +1,8 @@
+{
+  "message": "testmessage",
+  "status": "teststatus",
+  "data": {
+    "balance": "100",
+    "transCode": "testTransCode"
+  }
+}

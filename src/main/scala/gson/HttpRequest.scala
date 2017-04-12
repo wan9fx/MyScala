@@ -1,6 +1,11 @@
 package gson
 
-/**
-  * Created by wangfx on 2017/3/20.
-  */
-class HttpRequest {}
+case class GetData(
+    data: Data,
+    message: String,
+    status: String
+)
+case class Data(
+    balance: String,
+    transCode: String
+)
